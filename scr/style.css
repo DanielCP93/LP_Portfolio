@@ -1,0 +1,315 @@
+body {
+    font-family: 'Poppins';
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+.container section h1 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-decoration-line: underline;
+    color: #070F18;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 49px;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+a {
+    color:#070F18;
+    text-decoration: none;
+}
+
+.container div h1 {
+    font-size: 46px;
+    margin-bottom: 0;
+}
+
+p.gray {
+    color: #575455;
+    font-size: 16px;
+    line-height: 32px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #1F7CFF;
+    border-radius: 50px;
+    border: none;
+    width: 180px;
+    height: 48px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+figure {
+    margin: 0;
+}
+
+#mariaImg {
+    width: 100%;
+    margin-left: 40px;
+}
+
+#containerClients {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#textLogos {
+    color: #070F18;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 1em;
+    
+}
+
+#myServices {
+    text-align: center;
+}
+
+h3.red {
+    color: #F75C4E;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+h2.black {
+    margin-top: 6px;
+    margin-bottom: 0;
+    font-size: 36px;
+}
+
+.typeService {
+    text-align: center;
+    margin-top: 2em;
+}
+
+.typeService h2 {
+    margin-bottom: -19px;
+}
+
+#formImg {
+    width: 100%;
+}
+
+form {
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+#formContact {
+    margin-top: 100px;
+    margin-bottom: 180px;
+}
+
+#inputEmail {
+    width: 70%;
+    height: 48px;
+    border-radius: 50px;
+    background-color: #F5F6FB;
+    border: none;
+    font-size: 16px;
+    padding: 0 0 0 25px;
+    margin-top: 40px;
+    margin-bottom: 6px;
+}
+
+.portfolioImg {
+    margin-top: 70px;
+    text-align: center;
+    margin-left: 21px;
+}
+
+/*Responsividade Tablets*/
+
+@media (max-width: 768px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .container {
+        grid-auto-flow: column;
+    }
+
+    .container section h1 {
+        font-size: 28px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    nav ul li {
+        margin-top: 20px;
+        display: inline-block;
+        font-size: 15px;
+    }
+
+    .container div h1 {
+        font-size: 36px;
+        margin-top: 0;
+    }
+
+    p.gray {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .btn {
+        width: 150px;
+        height: 40px;
+        font-size: 14px;
+    }
+
+    #mariaImg, #formImg {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    h3.red {
+        font-size: 14px;
+        margin-top: 0;
+    } 
+
+    h2.black {
+        font-size: 28px;
+    }
+
+    form {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    #inputEmail {
+        width: 90%;
+        margin-top: 0;
+    }
+
+    #formContact {
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .portfolioImg {
+        width: 70%;
+        margin: 20px 0 0 0;
+    }
+
+    #portfolioImages {
+        display: grid;
+        grid-auto-flow: row;
+        text-align: center;
+    }
+}
+
+/*Responsividade Mobile*/
+
+@media (max-width: 480px) {
+    body {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .container {
+        grid-auto-flow: row;
+    }
+
+    .container section h1 {
+        font-size: 16px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+
+    nav ul {
+        text-align: center;
+    }
+
+    nav ul li {
+        margin-top: 10px;
+        display: inline-block;
+        font-size: 14px;
+    }
+
+    .container div h1 {
+        font-size: 20px;
+    }
+
+    p.gray {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .btn {
+        width: 120px;
+        height: 36px;
+        font-size: 10px;
+    }
+
+    #mariaImg, #formImg {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    h3.red {
+        font-size: 10px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    h2.black {
+        font-size: 18px;
+    }
+
+    form {
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    #inputEmail {
+        width: 90%;
+        margin-top: 0;
+    }
+
+    #formContact {
+        margin-top: 30px;
+        margin-bottom: 80px;
+    }
+
+    .portfolioImg {
+        width: 100%;
+        margin-top: 20px;
+    }
+}

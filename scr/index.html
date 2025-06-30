@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LP Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="container">
+        <section>
+            <h1>Portfolio</h1>
+        </section>
+        
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="#myServices">Meus Serviços</a></li>
+                    <li><a href="#formContact">Fale Comigo</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <section class="container">
+            <div>
+                <h1>Olá, meu nome<br>é Maria</h1>
+                <p class="gray">Sou programadora e gostaria de apresentar meu <br> trabalho para você através deste portfólio.</p>
+                <button class="btn">Meus Serviços</button>
+            </div>
+            <figure>
+                <img id="mariaImg" src="../assets/images/maria.svg" alt="maria">
+            </figure>
+        </section>
+
+        <section class="container" id="containerClients">
+            <div>
+                <p id="textLogos">Alguns dos <br> meus clientes</p>
+            </div>
+            <div class="logo">
+                <img src="../assets/images/apple.svg" alt="logoApple">
+            </div>
+            <div class="logo">
+                <img src="../assets/images/slack.svg" alt="logoSlack">
+            </div>
+            <div class="logo">
+                <img src="../assets/images/spotify.svg" alt="logoSpotify">
+            </div>
+        </section>
+
+        <section id="myServices">
+            <div>
+                <h3 class="red">Conheça</h3>
+                <h2 class="black">Meus Serviços</h2>
+                <p class="gray">Vou ajudar a sua empresa a <br> alcançar grandes resultados.</p>
+            </div>
+        </section>
+
+        <section class="container" >
+            <div class="typeService">
+                <img src="../assets/images/consultanceIcon.svg" alt="consultanceIcon">
+                <h2>Consultoria</h2>
+                <p class="gray">Te ajudo a organizar sua empresa <br> e melhorar seus resultados.</p>
+            </div>
+             <div class="typeService">
+                <img src="../assets/images/emailIcon.svg" alt="consultanceIcon">
+                <h2>Email Marketing</h2>
+                <p class="gray">Gerenciar campanhas é difícil. <br> Conte comigo para te ajudar.</p>
+            </div>
+             <div class="typeService">
+                <img src="../assets/images/siteIcon.svg" alt="consultanceIcon">
+                <h2>Criação de Sites</h2>
+                <p class="gray">Desenvolvo seu site inteiro <br> do zero e te entrego prontinho.</p>
+            </div>
+        </section>
+
+        <section class="container" id="formContact">
+            <figure>
+                <img id="formImg" src="../assets/images/formImg.svg" alt="formImage">      
+            </figure>
+            <form action="https://formspree.io/f/xkgbqqkr" method="POST">
+                <h3 class="red">Economize seu tempo</h3>
+                <h2 class="black">Ganhe mais dinheiro</h2>
+                <p class="gray">Digite aqui seu endereço de e-mail. Eu entrarei em <br> contato para fornecer um diagnóstico gratuito.</p>
+                <input id="inputEmail" type="email" placeholder="E-mail" required="required" name="Email"> <br>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </section>
+
+        <section class="container" id="Portfolio">
+            <div>
+                <h3 class="red">Conheça meu trabalho</h3>
+                <h2 class="black">Portfolio</h2>
+            </div>
+        </section>
+
+         <section class="container" id="portfolioImages">
+            <figure>
+                <img class="portfolioImg" src="../assets/images/imgPort1.svg" alt="portfolioImage">
+            </figure>
+            <figure>
+                <img class="portfolioImg" src="../assets/images/imgPort2.svg" alt="portfolioImage2">
+            </figure>
+            <figure>
+                <img class="portfolioImg" src="../assets/images/imgPort3.svg" alt="portfolioImage3">
+            </figure>
+        </section>
+    </main>
+</body>
+
+</html>
